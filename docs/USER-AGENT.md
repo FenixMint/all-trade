@@ -4,7 +4,7 @@ Oficjalne Allegro wymaga niestandardowego nagłówka `User-Agent` umożliwiając
 
 ## Nazwa i informacyjny adres URL
 
-- **Nazwa zgłoszona przez OWNER jako zarejestrowana w Developer Apps:** `MZ-Trading`
+- **Nazwa wybrana przez OWNER; rejestracja w Developer Apps jeszcze planowana:** `MZ-Trading`
 - **Strona informacyjna:** https://github.com/FenixMint/all-trade
 - **Wersja:** rzeczywista wersja uruchomionego modułu FX NEXUS; status wydania produkcyjnego pozostaje do potwierdzenia.
 
@@ -32,6 +32,6 @@ Nagłówek należy wysyłać przy **każdym żądaniu HTTP** do Allegro API, wra
 4. Wprowadzić pełny identyfikator do [oficjalnego walidatora User-Agent](https://apps.developer.allegro.pl/user-agent).
 5. Wykonać kontrolowany test wysyłania tego samego nagłówka na wszystkich ścieżkach, także OAuth, i zweryfikować brak domyślnych fallbacków.
 
-**Status walidatora: NIEPOTWIERDZONY.** Ten plik nie jest potwierdzeniem, że aplikacja została dodana do białej listy lub otrzymała dostęp do wszystkich endpointów.
+**Status: WSTRZYMANE DO ZAKOŃCZENIA 2FA I REJESTRACJI APLIKACJI.** Nie ustalono produkcyjnego numeru wersji i nie uruchomiono walidatora. Ten plik jest dokumentacją przyszłego etapu, a nie potwierdzeniem dostępu API.
 
 Oficjalny opis formatu: [Allegro FAQ](https://developer.allegro.pl/faq) i [Informacje podstawowe](https://developer.allegro.pl/tutorials/informacje-podstawowe-b21569boAI1).
