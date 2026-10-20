@@ -1,0 +1,31 @@
+# Public information-only repository: refuse accidentally exported credentials/data
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*.json
+*token*.json
+*credentials*.json
+*oauth*.json
+*.sqlite
+*.sqlite3
+*.db
+*.xls
+*.xlsx
+*.csv
+*.zip
+*.tar
+*.tar.gz
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.bak
+*~
+.DS_Store
+
+# gitignore is NOT a secret scanner; review all commits before publication.
