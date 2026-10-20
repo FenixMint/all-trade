@@ -1,27 +1,24 @@
 # Kontakt — MZ-Trading
 
-**Aplikacja:** MZ-Trading  
+**Aplikacja:** MZ-Trading (w przygotowaniu do rejestracji w Allegro Developer Apps)  
 **System:** FX NEXUS  
 **Podmiot korzystający:** MZ Trade s.c.  
 **Konto sprzedażowe:** `mztrade`
 
-## Publiczny kontakt techniczny
+## Kontakt techniczny
 
-Do niewrażliwych zgłoszeń dotyczących identyfikacji aplikacji, pytań o funkcjonalność lub błędów integracji służy:
+**E-mail:** [maciej@mztrade.com.pl](mailto:maciej@mztrade.com.pl)
 
-- [GitHub — zgłoś problem w repozytorium](https://github.com/FenixMint/all-trade/issues)
-- [Profil opiekuna repozytorium](https://github.com/FenixMint)
+Adres został wskazany przez właściciela integracji jako publiczny kontakt techniczny. Nie wykonywano zewnętrznego testu doręczenia wiadomości.
 
-W zgłoszeniu podaj nazwę `MZ-Trading`, przybliżoną godzinę zdarzenia, operację API i niesekretny identyfikator błędu (jeżeli jest dostępny).
+Można też skorzystać z [GitHub Issues](https://github.com/FenixMint/all-trade/issues) dla **niewrażliwych** zgłoszeń dotyczących integracji lub dokumentacji.
 
-**Nie publikuj** Client Secret, Client ID połączonego z innymi sekretami, tokenów OAuth, kodów 2FA, nagłówków `Authorization`, danych kupujących ani informacji handlowych.
+Podaj nazwę aplikacji `MZ-Trading`, rodzaj operacji i czas problemu; **nie przesyłaj** sekretów, tokenów OAuth, kodów 2FA, nagłówków `Authorization`, haseł, danych kupujących ani poufnych informacji biznesowych.
 
-## Zgłoszenia podatności i naruszeń bezpieczeństwa
+## Zgłoszenia bezpieczeństwa
 
-**Nie zgłaszaj podatności w publicznym Issue.** Jeżeli GitHub udostępnia w tym repozytorium funkcję *Report a vulnerability* / Private Vulnerability Reporting, użyj jej. Jeśli funkcja nie jest widoczna, wyślij przez publiczny Issue wyłącznie prośbę o **prywatny kanał kontaktu**, bez szczegółów podatności lub danych poufnych. Administrator udostępni kanał po weryfikacji.
+Podatności i podejrzenia ujawnienia danych zgłaszaj **prywatnie** na [maciej@mztrade.com.pl](mailto:maciej@mztrade.com.pl), z tematem `MZ-Trading — bezpieczeństwo`. Jeżeli GitHub oferuje dla tego repozytorium prywatne zgłaszanie podatności, możesz skorzystać z tej funkcji. Nie umieszczaj szczegółów podatności lub poświadczeń w publicznych Issues.
 
-## Kontakt bezpośredni — wymagany przed produkcyjnym uruchomieniem
+## Etap wdrożenia
 
-Docelowy, monitorowany **firmowy e-mail techniczny / kontaktowy** powinien zostać potwierdzony przez właściciela aplikacji i dodany w tej sekcji przed pełnym produkcyjnym uruchomieniem. Do tego czasu jedynym opublikowanym kanałem niesekretnym jest GitHub Issues.
-
-Żadne dane kontaktowe nie są tu zgadywane ani tworzone automatycznie.
+Dane kontaktowe są uzupełnione. Rejestracja aplikacji Allegro, weryfikacja 2FA, ustawienie User-Agent oraz OAuth są **odłożone do osobnego etapu** po zakończeniu weryfikacji konta. Ten dokument nie poświadcza, że te operacje wykonano.
