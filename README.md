@@ -15,7 +15,7 @@
 | **Konto sprzedawcy Allegro** | `mztrade` |
 | **Cel integracji** | Wewnętrzna obsługa sprzedaży części motoryzacyjnych poprzez oficjalne Allegro REST API |
 | **Dystrybucja** | Narzędzie do użytku wewnętrznego; to repozytorium jest publicznym opisem integracji, a nie instalatorem |
-| **Rejestracja aplikacji** | Nazwa `MZ-Trading` zgłoszona przez właściciela jako już zarejestrowana w Allegro; konfiguracja API i autoryzacja produkcyjna **niezależnie wymagają weryfikacji** |
+| **Rejestracja aplikacji** | **Planowana** w Allegro Developer Apps po zakończeniu weryfikacji 2FA; User-Agent i OAuth pozostają nieaktywowane |
 
 **MZ-Trading** jest modułem większej platformy **FX NEXUS**. Repozytorium stanowi publiczny punkt informacyjny do identyfikacji aplikacji korzystającej z Allegro REST API oraz kontaktu z jej administratorem. Nie jest to osobny system sprzedażowy, publiczna aplikacja internetowa ani repozytorium produkcyjnego kodu FX NEXUS.
 
@@ -36,7 +36,7 @@ Docelowy wzór:
 MZ-Trading/<wersja-faktycznie-uruchomionego-programu> (+https://github.com/FenixMint/all-trade)
 ```
 
-Wdrożona wersja musi odpowiadać rzeczywistemu wydaniu oprogramowania; przykładowego numeru nie należy przedstawiać jako produkcyjnego. Nazwa `MZ-Trading` ma odpowiadać dokładnej nazwie aplikacji w Allegro Developer Apps. Przed użyciem identyfikator powinien przejść [oficjalny walidator Allegro](https://apps.developer.allegro.pl/user-agent). Zapytania OAuth oraz REST API muszą być poprawnie identyfikowane.
+Wdrożona wersja musi odpowiadać rzeczywistemu wydaniu oprogramowania; przykładowego numeru nie należy przedstawiać jako produkcyjnego. Nazwa `MZ-Trading` ma odpowiadać dokładnej nazwie aplikacji w Allegro Developer Apps. **Uwaga: identyfikator jest na razie szablonem.** Wybór rzeczywistej wersji, sprawdzenie nazwy w Allegro Developer Apps i walidację przeprowadzimy **po zakończeniu 2FA i podczas rejestracji aplikacji**. Zapytania OAuth oraz REST API muszą być poprawnie identyfikowane.
 
 ## Ochrona danych i bezpieczeństwo
 
@@ -46,6 +46,7 @@ Zasady i ograniczenia: [SECURITY.md](SECURITY.md), [Informacje o danych](docs/DA
 
 ## Kontakt i problemy techniczne
 
+- **Kontakt techniczny:** [maciej@mztrade.com.pl](mailto:maciej@mztrade.com.pl).
 - Publiczne zgłoszenia **bez danych poufnych**: [GitHub Issues](https://github.com/FenixMint/all-trade/issues).
 - [Informacje o kontakcie i zgłoszeniach bezpieczeństwa](CONTACT.md).
 
