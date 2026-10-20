@@ -25,7 +25,7 @@ Moduł jest przeznaczony do działalności wewnętrznej MZ Trade. Nie oferujemy 
 
 ## Stan potwierdzenia
 
-Nazwa `MZ-Trading` została **zgłoszona przez właściciela jako zarejestrowana** w panelu Allegro. Publiczne repozytorium nie jest źródłem potwierdzenia aktywnej konfiguracji poświadczeń, uprawnień, przejścia walidatora User-Agent, faktycznego wykonania żądań lub wydania produkcyjnego. Te kontrole odbywają się poza repozytorium.
+Nazwa aplikacji **MZ-Trading** jest przyjęta przez właściciela. **Rejestrację aplikacji w Allegro Developer Apps zaplanowano dopiero po zakończeniu weryfikacji 2FA** na dotychczasowym koncie sprzedażowym `mztrade`. User-Agent, Client ID/Secret i autoryzacja OAuth nie zostały w tej sesji skonfigurowane ani zweryfikowane. Kontrole będą odbywać się poza repozytorium.
 
 ## Powiązania i niezależność
 
