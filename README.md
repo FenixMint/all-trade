@@ -2,7 +2,7 @@
 
 **Moduł integracji Allegro REST API dla systemu FX NEXUS — MZ Trade**
 
-[Informacje o aplikacji](ABOUT.md) · [Integracja](docs/INTEGRATION.md) · [Bezpieczeństwo](SECURITY.md) · [Kontakt](CONTACT.md) · [Źródła Allegro](docs/SOURCES.md)
+[O aplikacji](ABOUT.md) · [Integracja](docs/INTEGRATION.md) · [Zakresy OAuth](docs/SCOPES.md) · [User-Agent](docs/USER-AGENT.md) · [Bezpieczeństwo](SECURITY.md) · [Kontakt](CONTACT.md) · [Kontrola gotowości](docs/RELEASE-CHECKLIST.md) · [Źródła Allegro](docs/SOURCES.md)
 
 ## Identyfikacja
 
