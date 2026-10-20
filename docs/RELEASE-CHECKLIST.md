@@ -7,8 +7,10 @@ Ten plik jest **listą kontrolną**, nie certyfikatem zgodności. Nie zaznaczać
 - [x] Publiczne repozytorium informacyjne `FenixMint/all-trade` jest dostępne.
 - [x] Jednoznaczny opis nazwy `MZ-Trading`, systemu FX NEXUS, działalności i konta `mztrade`.
 - [x] Udokumentowano zasady kontaktu przez GitHub bez przekazywania poufnych informacji.
-- [ ] Potwierdzono monitorowany, bezpośredni adres kontaktowy administratora integracji i uzupełniono `CONTACT.md`.
-- [ ] Zweryfikowano w panelu Allegro dokładną nazwę `MZ-Trading`, faktycznie zarejestrowany typ aplikacji i przyznane scopes.
+- [x] Właściciel wskazał publiczny kontakt techniczny `maciej@mztrade.com.pl`; uzupełniono `CONTACT.md`.
+- [ ] Zweryfikowano odbiór wiadomości przez ten adres.
+- [ ] Zakończono weryfikację 2FA na istniejącym koncie Allegro `mztrade`.
+- [ ] Zarejestrowano aplikację `MZ-Trading` w Allegro Developer Apps i potwierdzono jej typ oraz udzielane scopes.
 - [ ] Ustalono rzeczywisty numer wersji aplikacji z uruchomionego kodu.
 - [ ] Sprawdzono pełny `User-Agent` oficjalnym walidatorem Allegro i potwierdzono jego użycie na wszystkich żądaniach.
 
@@ -32,4 +34,4 @@ Ten plik jest **listą kontrolną**, nie certyfikatem zgodności. Nie zaznaczać
 
 ## Stan znany z dokumentowania
 
-Właściciel przekazał, że aplikacja `MZ-Trading` jest już zarejestrowana. Tego faktu **nie sprawdzono niezależnie w prywatnym panelu Allegro**. Samo zapisanie dokumentacji w repozytorium nie przeprowadza autoryzacji OAuth, testów ani zmian w ofertach. Niezaznaczone punkty pozostają wymaganiami lub czynnościami do weryfikacji.
+**Decyzja OWNER 2026-10-20:** kontakt techniczny jest podany; 2FA kończymy najpierw, potem tworzymy aplikację w Allegro Developer Apps, a dopiero przy tym etapie konfigurujemy i walidujemy User-Agent oraz OAuth. Brak potwierdzenia, że aplikacja już istnieje w Allegro. Sama dokumentacja nie przeprowadza autoryzacji OAuth, testów ani zmian w ofertach. Niezaznaczone punkty pozostają wymaganiami do wykonania.
