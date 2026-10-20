@@ -4,7 +4,7 @@
 
 | Element | Wartość |
 | --- | --- |
-| Aplikacja | `MZ-Trading` (nazwa wskazana przez OWNER jako zarejestrowana w Allegro) |
+| Aplikacja | `MZ-Trading` — nazwa wybrana przez właściciela; rejestracja po weryfikacji 2FA |
 | Publiczna strona informacyjna | https://github.com/FenixMint/all-trade |
 | Konto sprzedawcy | `mztrade` |
 | System nadrzędny | FX NEXUS |
@@ -48,4 +48,4 @@ Zobacz [SCOPES.md](SCOPES.md), [USER-AGENT.md](USER-AGENT.md), [SECURITY.md](../
 
 ## Aktualny etap
 
-To repozytorium dokumentuje **zamierzone funkcje** modułu. Fakt rejestracji nazwy aplikacji został przekazany przez właściciela; nie oznacza to, że przeprowadzono produkcyjne uwierzytelnienie sprzedawcy, aktywowano zapisy, przetestowano wymaganą ochronę sekretów lub zweryfikowano działanie obecnego konektora.
+To repozytorium dokumentuje **zamierzone funkcje** modułu. **Rejestracja aplikacji w Allegro Developer Apps odbędzie się dopiero po dokończeniu weryfikacji 2FA.** User-Agent i OAuth również należą do tego późniejszego etapu. Nie przeprowadzono produkcyjnego uwierzytelnienia sprzedawcy, nie aktywowano zapisu ofert ani nie potwierdzono gotowości obecnego konektora.
