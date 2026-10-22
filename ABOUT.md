@@ -25,7 +25,7 @@ Moduł jest przeznaczony do działalności wewnętrznej MZ Trade. Nie oferujemy 
 
 ## Stan potwierdzenia
 
-Nazwa aplikacji **MZ-Trading** jest przyjęta przez właściciela. **Rejestrację aplikacji w Allegro Developer Apps zaplanowano dopiero po zakończeniu weryfikacji 2FA** na dotychczasowym koncie sprzedażowym `mztrade`. User-Agent, Client ID/Secret i autoryzacja OAuth nie zostały w tej sesji skonfigurowane ani zweryfikowane. Kontrole będą odbywać się poza repozytorium.
+Właściciel potwierdził rejestrację aplikacji **MZ-Trading** na dotychczasowym koncie sprzedażowym `mztrade`. Dnia 22.10.2026 operator zweryfikował połączenie OAuth z odczytem informacji o koncie i ofertach za pomocą FX NEXUS. To potwierdzenie dotyczy **odczytu** — edycja cen/ofert poprzez API nie jest jeszcze uruchomioną i przetestowaną funkcją. Klucze i tokeny nie są publikowane w tym repozytorium.
 
 ## Powiązania i niezależność
 
