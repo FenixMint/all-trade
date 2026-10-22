@@ -2,6 +2,7 @@
 
 ## Unreleased — 2026-10-20
 
+- 2026-10-22: OWNER potwierdził rejestrację MZ-Trading i poprawny test OAuth seller READ (GET /me, GET /sale/offers) w FX NEXUS. Publiczny opis i checklistę uaktualniono; aktualizacje cen API nadal wymagają odrębnej implementacji i testów, nie wykonano provider WRITE.
 - Utworzono publiczną dokumentację informacyjną aplikacji **MZ-Trading**, będącej modułem FX NEXUS.
 - OWNER wskazał publiczny kontakt techniczny `maciej@mztrade.com.pl` (bez niezależnego testu doręczania wiadomości).
 - Doprecyzowano kolejność: najpierw dokończenie 2FA konta `mztrade`, potem rejestracja `MZ-Trading` w Allegro Developer Apps, następnie User-Agent i OAuth; nie przedstawiamy planowanej rejestracji jako zakończonej.
