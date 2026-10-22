@@ -15,7 +15,7 @@
 | **Konto sprzedawcy Allegro** | `mztrade` |
 | **Cel integracji** | Wewnętrzna obsługa sprzedaży części motoryzacyjnych poprzez oficjalne Allegro REST API |
 | **Dystrybucja** | Narzędzie do użytku wewnętrznego; to repozytorium jest publicznym opisem integracji, a nie instalatorem |
-| **Rejestracja aplikacji** | **Planowana** w Allegro Developer Apps po zakończeniu weryfikacji 2FA; User-Agent i OAuth pozostają nieaktywowane |
+| **Rejestracja aplikacji** | **MZ-Trading zarejestrowana** przez właściciela na koncie Allegro `mztrade`; odczyt ofert przez OAuth potwierdzony testem operatora 22.10.2026; operacje zapisu cen **nieuruchomione** |
 
 **MZ-Trading** jest modułem większej platformy **FX NEXUS**. Repozytorium stanowi publiczny punkt informacyjny do identyfikacji aplikacji korzystającej z Allegro REST API oraz kontaktu z jej administratorem. Nie jest to osobny system sprzedażowy, publiczna aplikacja internetowa ani repozytorium produkcyjnego kodu FX NEXUS.
 
@@ -36,7 +36,7 @@ Docelowy wzór:
 MZ-Trading/<wersja-faktycznie-uruchomionego-programu> (+https://github.com/FenixMint/all-trade)
 ```
 
-Wdrożona wersja musi odpowiadać rzeczywistemu wydaniu oprogramowania; przykładowego numeru nie należy przedstawiać jako produkcyjnego. Nazwa `MZ-Trading` ma odpowiadać dokładnej nazwie aplikacji w Allegro Developer Apps. **Uwaga: identyfikator jest na razie szablonem.** Wybór rzeczywistej wersji, sprawdzenie nazwy w Allegro Developer Apps i walidację przeprowadzimy **po zakończeniu 2FA i podczas rejestracji aplikacji**. Zapytania OAuth oraz REST API muszą być poprawnie identyfikowane.
+Wdrożona wersja musi odpowiadać rzeczywistemu wydaniu oprogramowania; przykładowego numeru nie należy przedstawiać jako produkcyjnego. Nazwa `MZ-Trading` ma odpowiadać dokładnej nazwie aplikacji w Allegro Developer Apps. Identyfikator jest wzorem; operator wykorzystał konfigurację MZ-Trading do zweryfikowanego odczytu API 22.10.2026. **Zgodność z oficjalnym walidatorem User-Agent i produkcyjna wersja oprogramowania pozostają oddzielnymi punktami kontrolnymi**. Zapytania OAuth oraz REST API muszą być poprawnie identyfikowane.
 
 ## Ochrona danych i bezpieczeństwo
 
