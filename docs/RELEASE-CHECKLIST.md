@@ -9,17 +9,18 @@ Ten plik jest **listą kontrolną**, nie certyfikatem zgodności. Nie zaznaczać
 - [x] Udokumentowano zasady kontaktu przez GitHub bez przekazywania poufnych informacji.
 - [x] Właściciel wskazał publiczny kontakt techniczny `maciej@mztrade.com.pl`; uzupełniono `CONTACT.md`.
 - [ ] Zweryfikowano odbiór wiadomości przez ten adres.
-- [ ] Zakończono weryfikację 2FA na istniejącym koncie Allegro `mztrade`.
-- [ ] Zarejestrowano aplikację `MZ-Trading` w Allegro Developer Apps i potwierdzono jej typ oraz udzielane scopes.
+- [x] Właściciel ukończył 2FA na koncie Allegro `mztrade` przed rejestracją nowej aplikacji.
+- [x] Właściciel potwierdził rejestrację aplikacji `MZ-Trading` jako Device na koncie `mztrade`.
+- [ ] Właściwy zakres uprawnień do przyszłego WRITE i reautoryzacja tokenu — do osobnej weryfikacji.
 - [ ] Ustalono rzeczywisty numer wersji aplikacji z uruchomionego kodu.
 - [ ] Sprawdzono pełny `User-Agent` oficjalnym walidatorem Allegro i potwierdzono jego użycie na wszystkich żądaniach.
 
 ## Bezpieczeństwo i OAuth
 
-- [ ] Potwierdzono uprawnienie właściciela aplikacji oraz włączenie 2FA dla konta Allegro.
+- [x] Właściciel potwierdził 2FA na koncie `mztrade` i zarejestrowanie aplikacji na tym koncie.
 - [ ] Wdrożono ochronę poświadczeń i bezpieczne odświeżanie tokenów oraz testy braku wycieku przez logi.
-- [ ] Sprawdzono minimalne scopes i akceptację autoryzacji dla konta `mztrade`.
-- [ ] Potwierdzono w API rzeczywistą tożsamość sprzedawcy, np. przez `GET /me`.
+- [x] Ukończono OAuth z zakresami odczytu konta i ofert, potwierdzone testem operatora 22.10.2026. Nie weryfikuje to WRITE.
+- [x] Test operatora z 22.10.2026 potwierdził poprawność `GET /me` i `GET /sale/offers`.
 - [ ] Odrębnie przetestowano właściwy typ tokena dla katalogu i prywatnych ofert.
 - [ ] Rozdzielono Sandbox i produkcję; wykonano udane testy niewprowadzające zmian.
 
@@ -34,4 +35,4 @@ Ten plik jest **listą kontrolną**, nie certyfikatem zgodności. Nie zaznaczać
 
 ## Stan znany z dokumentowania
 
-**Decyzja OWNER 2026-10-20:** kontakt techniczny jest podany; 2FA kończymy najpierw, potem tworzymy aplikację w Allegro Developer Apps, a dopiero przy tym etapie konfigurujemy i walidujemy User-Agent oraz OAuth. Brak potwierdzenia, że aplikacja już istnieje w Allegro. Sama dokumentacja nie przeprowadza autoryzacji OAuth, testów ani zmian w ofertach. Niezaznaczone punkty pozostają wymaganiami do wykonania.
+**Stan 2026-10-22:** właściciel potwierdził rejestrację MZ-Trading na koncie `mztrade` oraz skuteczny odczyt danych konta/ofert przez OAuth w instalacji FX NEXUS. Nie wykonano tu niezależnej oceny bezpieczeństwa ani żadnej aktualizacji cen. Do dopuszczenia operacji zapisu wymagane są odrębne testy, weryfikacja odpowiednich uprawnień i kontrolowany pilot. Niezaznaczone punkty pozostają do wykonania.
