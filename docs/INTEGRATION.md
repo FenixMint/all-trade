@@ -4,12 +4,12 @@
 
 | Element | Wartość |
 | --- | --- |
-| Aplikacja | `MZ-Trading` — nazwa wybrana przez właściciela; rejestracja po weryfikacji 2FA |
+| Aplikacja | `MZ-Trading` — zarejestrowana na koncie sprzedawcy `mztrade` według potwierdzenia właściciela |
 | Publiczna strona informacyjna | https://github.com/FenixMint/all-trade |
 | Konto sprzedawcy | `mztrade` |
 | System nadrzędny | FX NEXUS |
 | Repozytorium | Informacyjne, bez produkcyjnego kodu i danych firmowych |
-| Status uwierzytelnienia | Niepotwierdzony na podstawie publicznego repozytorium |
+| Status uwierzytelnienia | Operator potwierdził 22.10.2026 udany odczyt konta i ofert przez FX NEXUS OAuth; brak potwierdzonej operacji zmiany ceny |
 
 ## Założenia modułu
 
@@ -48,4 +48,4 @@ Zobacz [SCOPES.md](SCOPES.md), [USER-AGENT.md](USER-AGENT.md), [SECURITY.md](../
 
 ## Aktualny etap
 
-To repozytorium dokumentuje **zamierzone funkcje** modułu. **Rejestracja aplikacji w Allegro Developer Apps odbędzie się dopiero po dokończeniu weryfikacji 2FA.** User-Agent i OAuth również należą do tego późniejszego etapu. Nie przeprowadzono produkcyjnego uwierzytelnienia sprzedawcy, nie aktywowano zapisu ofert ani nie potwierdzono gotowości obecnego konektora.
+Aplikacja została zarejestrowana, a właściciel potwierdził 22.10.2026 udany test produkcyjnego **odczytu** konta i ofert przy użyciu OAuth. Zapis i aktualizacja cen stanowią odrębny planowany etap — w tej dokumentacji nie twierdzimy, że operacje WRITE są zaimplementowane, uruchomione czy zaakceptowane do produkcji.
